@@ -3,7 +3,7 @@ import string
 name = input("Enter your name::")
 psw_length = input(f'hello {name} of long paassword do you want?')
 INT_pas=int(psw_length)
-if INT_pas < 6 and INT_pas > 6:
+if INT_pas < 6 or INT_pas > 12:
     print("password must be above 6 character and below 12 character")
 
 
